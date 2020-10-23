@@ -1,0 +1,63 @@
+body{
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+    color: #222;
+    overflow-x: hidden;
+}
+
+.dm-400 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+.dm-500 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.dm-700 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 8rem;
+}
+
+.subtitle {
+    font-size: 6rem;
+}
+
+.text-enlarged {
+    font-size: 2rem;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.height-75 {
+    height: 75vh;
+}
+
+.center-inside {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bg-purple {
+    background-color: #4828fa;
+}
+
+.btn {
+    transition: 0.5s;
+    width: 30%;
+}
+
+.btn:hover {
+    transform: translateY(-10px);
+}
