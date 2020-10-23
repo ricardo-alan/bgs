@@ -6,7 +6,7 @@ Array.prototype.forEach.call(elements, function (element) {
     let color = element.hasAttribute("data-bgs-color") ? element.getAttribute("data-bgs-color") : "#4B8CEE";
     let opacity = element.hasAttribute("data-bgs-opacity") ? element.getAttribute("data-bgs-opacity") : ".1";
     let width = element.hasAttribute("data-bgs-width") ? element.getAttribute("data-bgs-width") : 80;
-    let orientation = element.hasAttribute("data-bgs-orientation") ? element.getAttribute("data-bgs-orientation") : "center"
+    let position = element.hasAttribute("data-bgs-position") ? element.getAttribute("data-bgs-position") : "center"
     let double = element.hasAttribute("data-bgs-double");
     let circle2 = "";
     
@@ -14,7 +14,7 @@ Array.prototype.forEach.call(elements, function (element) {
     let cy = size / 2;
     let radio = (size - 2 * width) / 2;
     
-    switch (orientation) {
+    switch (position) {
         case "left":
             cx = 0;
             element.style.backgroundPosition = "left";
