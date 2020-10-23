@@ -3,6 +3,9 @@ Background shapes for your websites
 
 ---
 
+## Demo
+https://ricardo-alan.github.io/bgs/index.html
+
 ## Usage
 
 ### First add scripts
